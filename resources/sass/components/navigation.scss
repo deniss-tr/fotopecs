@@ -1,0 +1,17 @@
+.navigation {
+    ul {
+        display: flex;
+    }
+
+    a {
+        text-decoration: none;
+        text-transform: uppercase;
+        color: $nav-color;
+        margin: 0 10px;
+        font-weight: 600;
+
+        &:hover {
+            color: $logo-color
+        }
+    }
+}
